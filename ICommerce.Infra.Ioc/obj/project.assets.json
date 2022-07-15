@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ICommerce.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ICommerce.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ICommerce.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ICommerce.Application.dll": {}
+        }
+      },
+      "ICommerce.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ICommerce.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ICommerce.Domain.dll": {}
+        }
+      },
+      "ICommerce.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ICommerce.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ICommerce.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ICommerce.Infra.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ICommerce.Application/1.0.0": {
+      "type": "project",
+      "path": "../ICommerce.Application/ICommerce.Application.csproj",
+      "msbuildProject": "../ICommerce.Application/ICommerce.Application.csproj"
+    },
+    "ICommerce.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ICommerce.Domain/ICommerce.Domain.csproj",
+      "msbuildProject": "../ICommerce.Domain/ICommerce.Domain.csproj"
+    },
+    "ICommerce.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../ICommerce.Infra.Data/ICommerce.Infra.Data.csproj",
+      "msbuildProject": "../ICommerce.Infra.Data/ICommerce.Infra.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ICommerce.Application >= 1.0.0",
+      "ICommerce.Domain >= 1.0.0",
+      "ICommerce.Infra.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Leandro\\.nuget\\packages\\": {}
@@ -33,7 +90,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Leandro\\Projects\\Leandro\\dotnet\\ICommerce\\ICommerce.Application\\ICommerce.Application.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Projects\\Leandro\\dotnet\\ICommerce\\ICommerce.Application\\ICommerce.Application.csproj"
+            },
+            "C:\\Users\\Leandro\\Projects\\Leandro\\dotnet\\ICommerce\\ICommerce.Domain\\ICommerce.Domain.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Projects\\Leandro\\dotnet\\ICommerce\\ICommerce.Domain\\ICommerce.Domain.csproj"
+            },
+            "C:\\Users\\Leandro\\Projects\\Leandro\\dotnet\\ICommerce\\ICommerce.Infra.Data\\ICommerce.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Projects\\Leandro\\dotnet\\ICommerce\\ICommerce.Infra.Data\\ICommerce.Infra.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
