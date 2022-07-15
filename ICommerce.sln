@@ -3,6 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICommerce.Application", "ICommerce.Application\ICommerce.Application.csproj", "{96B47BA8-670C-4BBB-BC5C-97842FAE320B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICommerce.Domain", "ICommerce.Domain\ICommerce.Domain.csproj", "{D7AB0CDD-7BC0-4DCD-92B7-B0F60548F7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICommerce.Infra.Data", "ICommerce.Infra.Data\ICommerce.Infra.Data.csproj", "{A530070C-1061-4136-A666-DCBAB39EC289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICommerce.Infra.Ioc", "ICommerce.Infra.Ioc\ICommerce.Infra.Ioc.csproj", "{8C486831-9740-4C32-B03C-0A05C7B77DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICommerce.WebUI", "ICommerce.WebUI\ICommerce.WebUI.csproj", "{D4AA35A6-4077-4507-8BA9-66D52CE4D09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICommerce.WebAdmin", "ICommerce.WebAdmin\ICommerce.WebAdmin.csproj", "{B6C62F8F-7D5A-4D8C-8865-1DEF40B42479}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +22,31 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96B47BA8-670C-4BBB-BC5C-97842FAE320B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B47BA8-670C-4BBB-BC5C-97842FAE320B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B47BA8-670C-4BBB-BC5C-97842FAE320B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B47BA8-670C-4BBB-BC5C-97842FAE320B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AB0CDD-7BC0-4DCD-92B7-B0F60548F7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AB0CDD-7BC0-4DCD-92B7-B0F60548F7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AB0CDD-7BC0-4DCD-92B7-B0F60548F7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AB0CDD-7BC0-4DCD-92B7-B0F60548F7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A530070C-1061-4136-A666-DCBAB39EC289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A530070C-1061-4136-A666-DCBAB39EC289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A530070C-1061-4136-A666-DCBAB39EC289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A530070C-1061-4136-A666-DCBAB39EC289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C486831-9740-4C32-B03C-0A05C7B77DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C486831-9740-4C32-B03C-0A05C7B77DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C486831-9740-4C32-B03C-0A05C7B77DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C486831-9740-4C32-B03C-0A05C7B77DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AA35A6-4077-4507-8BA9-66D52CE4D09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AA35A6-4077-4507-8BA9-66D52CE4D09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AA35A6-4077-4507-8BA9-66D52CE4D09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AA35A6-4077-4507-8BA9-66D52CE4D09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C62F8F-7D5A-4D8C-8865-1DEF40B42479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C62F8F-7D5A-4D8C-8865-1DEF40B42479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C62F8F-7D5A-4D8C-8865-1DEF40B42479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C62F8F-7D5A-4D8C-8865-1DEF40B42479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
